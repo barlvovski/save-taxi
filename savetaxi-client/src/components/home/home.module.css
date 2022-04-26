@@ -1,0 +1,43 @@
+.root {
+    background: linear-gradient(rgba(21, 39, 87, 0.5), rgba(255, 221, 0, 0.5)),
+        url('./pexels-rodolfo-clix-1521580.jpg') no-repeat center 100% / cover;
+    height: 100vh;
+    display: flex;
+    width: 100vw;
+}
+
+.logoContainer {
+    margin: 30px 0 0 30px;
+    display: flex;
+    height: 150px;
+    justify-content: start;
+    align-items: center;
+}
+
+.img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.name {
+    display: inline;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 0 0 10px #000;
+    margin-left: 15px;
+}
+
+.about {
+    direction: rtl;
+    color: #fff;
+    width: 200px;
+    text-align: right;
+    text-shadow: 0 0 10px #000;
+    font-weight: 500;
+    font-size: 25px;
+    flex: 1;
+    padding: 25px;
+}
